@@ -1,15 +1,16 @@
 "use client";
 
 import Hero from "../../components/Hero";
-import P5Sketch from "../../components/P5Sketch";
+import P5Background from "../../components/P5Background";
 
 
 
 export default function Home() {
   return (
     <>
+    <P5Background />
       <Hero />
-      <P5Sketch />
+      
       
     </>
   );
